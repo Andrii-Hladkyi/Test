@@ -5,7 +5,7 @@ describe('Page opening', function () {
     it('get title', function(){
         browser.url('/');
 
-
+//1231324245
         let title = browser.getTitle();
         assert.equal(title, 'Bug Tracker', 'Title is incorrect');
     })
